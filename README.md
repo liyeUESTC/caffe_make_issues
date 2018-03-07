@@ -6,16 +6,15 @@
 
 问题原因：问题原因是没有编译caffe的python接口，导致运行python代码中涉及到的caffe接口，会报错。
 
-解决办法：
 
-`make clean' # 清除编译号的caffe
-
-`make all -j8`   # 编译caffe
-
-`make pycaffe`  # 编译python接口 
-
-`make test -j8`  # 测试
-
-`make runtest -j8`  # 测试
  
+- `make clean`
+
+- `make all -j8`   # 编译caffe
+
+- `make pycaffe`  # 编译python接口 
+
+- `make test -j8`  # 测试
+
+- `make runtest -j8`  # 测试
  
