@@ -7,7 +7,6 @@
 问题原因：问题原因是没有编译caffe的python接口，导致运行python代码中涉及到的caffe接口，会报错。
 
 
- 
 - `make clean`
 
 - `make all -j8`   # 编译caffe
